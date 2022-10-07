@@ -1,0 +1,317 @@
+/* RESET */
+*{margin: 0px;
+    padding: 0px;
+}
+
+
+/* ESTILOS DE INICIO */
+
+.body-inicio{
+    background-color: #FDEEDC;
+}
+
+/* Estilos de header */
+.header-inicio{
+    background-color: #FA7070;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1px;
+    color: #FFF5E4;
+}
+
+.header-inicio h1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px;
+    color: #FFF5E4;
+    text-shadow: brown 3px 3px;
+}
+
+.header-inicio h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+}
+
+.header-inicio nav ul{
+    display: flex;
+    column-gap: 5px;
+    
+}
+
+.header-inicio nav ul li{
+    list-style: none;
+    background-color: #FBF2CF;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px;
+    color: black;
+    font-family: 'Caveat', cursive;
+    
+}
+
+.header-inicio nav ul li a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: #FBF2CF;
+    box-shadow: 1px 1px 6px black;
+    transform: scale(1);
+    
+    }
+
+.nav menu{
+    list-style: none;
+    background-color: #FFF5E4;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px;
+    color: black;
+    
+}
+
+@media screen and (min-width:600px){
+    nav menu{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+}
+
+/* Estilos de main */
+
+.main-inicio h2, p{
+    text-align: center;
+    font-family:'Josefin Sans', sans-serif;
+    color: brown;
+    padding: 5px;
+    }
+
+.main-inicio .div-inicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* Estilos de footer */
+
+.footer-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FA7070;
+    padding: 10px;
+    margin-top: 10px;
+    font-family:'Josefin Sans', sans-serif;
+    
+}
+
+.footer-inicio div img{
+    animation-name: instagram;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    align-content: center
+    
+
+}
+
+.footer-productos div img{
+    animation-name: instagram;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    align-content: center
+}
+
+@keyframes instagram {
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(5px);
+    }
+
+    100%{
+        transform: translate(0);
+    }
+
+
+    
+}
+
+div img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div img{
+    width: 60%;
+    filter: drop-shadow(4px 7px 2px rgb(241, 167, 114));
+    ;
+}
+
+
+
+
+
+
+
+/* ESTILOS DE PRODUCTOS */
+.main-productos{
+    text-align: center;
+    font-family:'Josefin Sans', sans-serif;
+    color: brown;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.main-productos div ul{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: #3D8361;
+    padding: 80px;
+    list-style: none;
+    justify-self: center;
+    align-self: center;
+    width: 700px;
+    display: block;
+    
+}
+
+.main-productos ul li{
+    grid: flex;
+    text-align: center;
+    margin: 40px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+.main-productos .div-inicio ul li{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 90%;
+    
+}
+
+
+
+.footer-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FA7070;
+    padding: 10px;
+    margin-top: 10px;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+
+
+/* ESTILOS DE COMPRAS */
+
+.main-compras h2{
+    align-items: center;
+    font-family:'Josefin Sans', sans-serif;
+    color: #3D8361;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    font-size: 50px;
+}
+
+.div-compras{
+    align-items: center;
+    font-family:'Josefin Sans', sans-serif;
+    color: #3D8361;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.div-imagendecompra{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.footer-inicio h3 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FA7070;
+    padding: 10px;
+    margin-top: 10px;
+    font-family:'Josefin Sans', sans-serif;
+    margin: 10px;
+}
+
+
+/* ESTILOS DE CONTACTO*/
+
+.main-contacto{
+    justify-content: center;
+    display: flex;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #3D8361;
+    padding: 30px;
+    list-style: none;
+    display: flex;
+}
+
+
+
+.main-contacto ul li{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+
+.formulario{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    justify-content: center;
+    margin: 50px;
+    padding: 90px;
+    text-align: center;
+}
+
+
+  
+
+/* ESTILO DE NOSOTROS */
+
+.main-nosotros p{
+    font-family: 'Dancing Script', cursive;
+    color: #3D8361;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+
